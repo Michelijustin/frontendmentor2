@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/*para dispositivo celular*/
+
+@font-face {
+    font-family: 'fig';
+    src: url('../fonts/Figtree-ExtraBold.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'italic';
+    src: url('../fonts/Figtree-Italic-VariableFont_wght.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'v';
+    src: url('../fonts/Figtree-VariableFont_wght.ttf') format('opentype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'v';
+}
+
+body{
+    background-color: #f4d04e;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+div#carta{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 0px black;
+    border: 1px solid black;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+section#foto img{
+    border-radius: 15px;
+}
+
+p#lear{
+    background-color: #f4d04e;
+    width: 115px;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 900;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+p#ab{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h1#f{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+div#autor > img{
+    width: 30px;
+    transform: translateY(12px);
+    margin-right: 5px;
+}
+
+div#autor > p{
+    display: inline;
+    font-size: 0.9em;
+    font-family: 'fig';
+}
