@@ -24,8 +24,11 @@
     font-family: 'v';
 }
 
-body{
+
+body,html{
     background-color: #f4d04e;
+    width: 100vw;
+    height: 100vh;
 }
 
 main{
@@ -44,9 +47,11 @@ div#carta{
     left: 50%;
     top: 50%;
     position: absolute;
+    width: 320px;
 }
 section#foto img{
     border-radius: 15px;
+    width: 280px;
 }
 
 p#lear{
